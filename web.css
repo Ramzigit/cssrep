@@ -1,0 +1,39 @@
+body {
+	background: lightgrey;
+}
+h2:hover {
+	color: red;
+}
+.home {
+	color: blue;
+}
+
+#about{
+	color: green;
+}
+/*
+#google-link:link {
+	color: orange;
+}
+
+#google-link:visited {
+	color: pink;
+}*/
+
+textarea ~ button{
+	color:purple;
+}
+ul > li{
+	color:blue;
+}
+ul li{
+	color:red;
+}
+
+img[src^="C:\Users\R@MZI\Desktop/img/"] {
+	border: 10px solid black;
+}
+
+h2[class~=sweet-home]{
+	background:green;
+}
